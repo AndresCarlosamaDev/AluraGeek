@@ -1,0 +1,86 @@
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-azul: #2A7AE4;
+    --col-gris: #464646;
+    --col-fondoDos: #EAF2FD;
+}
+
+.container {
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    overflow: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--col-gris);
+}
+
+/* ------------------------------------- */
+
+/* Boton azul */
+.btn-blue {
+    background-color: #ec2F4B;
+    border-radius: 5px;
+    border: none;
+    /* padding: 1.2rem 3.5rem; */
+    padding: .9rem 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* encabezado secciones */
+.title-encabezado {
+    font-size: 2rem;
+    color: var(--col-gris);
+}
+
+.title_encabezado {
+    color: var(--col-gris);
+    font-size: 1rem;
+}
+.star_encabezado_link-btn img,
+.consola_encabezado_link-btn img,
+.diversos_encabezado_link img {
+    width: 1.2rem;
+}
+.star_encabezado_link{
+    cursor: pointer;
+}
+.star_encabezado_link-btn,
+.consola_encabezado_link-btn,
+.diversos_encabezado_link {
+    background: none;
+    border: none;
+}
+.btn_encabezado {
+    opacity: 75%;
+    margin-left: 5px;
+}
+
+
+/* Productos */
+.title-product {}
+
+.price-product {}
+
+.link-product {}

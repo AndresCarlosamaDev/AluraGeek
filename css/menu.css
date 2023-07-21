@@ -1,0 +1,287 @@
+/* Seccion Menu */
+section.menu {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.menu_header {
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_header_logo {
+    height: 45px;
+    margin-right: 1.5rem;
+}
+
+.menu_buscador {
+    display: flex;
+    background-color: #F5F5F5;
+    width: calc(100vw/3);
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: .2rem .8rem;
+}
+
+.menu_buscador-txt {
+    font-weight: 200;
+    font-size: small;
+}
+
+.menu_buscador-lupa {
+    width: 20px;
+}
+
+.menu_conten {
+    display: flex;
+}
+
+.menu_conten_btn {
+    border: 1px solid;
+    border-color: var(--cor-azul);
+    padding: .7rem 3.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: white;
+    color: var(--cor-azul);
+    cursor: pointer;
+}
+
+/* Seccion Header */
+section.banner {
+    overflow: hidden;
+}
+
+.banner_contain {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 30vh;
+    z-index: 99;
+}
+
+.banner_contain_title {
+    color: white;
+    font-size: 3.25rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.banner_contain_subtitle {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 15px 0;
+}
+
+.banner_contain_imagen {
+    position: relative;
+}
+
+.banner_img {
+    background: url('../img/HeroDos.png') no-repeat center / cover;
+    width: 100%;
+    height: 40vh;
+    z-index: -99;
+}
+
+/* Seccion StarWars */
+section.star {
+    padding: 0 10%;
+    margin-top: 3rem;
+}
+
+.star_contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star_encabezado_link {
+    display: flex;
+    align-items: center;
+}
+
+.star_contain_prod {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.star_product {
+    margin-right: 1rem;
+}
+
+.star_product_title {
+    color: var(--col-gris);
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.star_product_price {
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+
+.star_product_link {
+    color: var(--cor-azul);
+    font-weight: 700;
+}
+
+/* Seccion Consola */
+section.consola {
+    padding: 0 10%;
+    margin-top: 3rem;
+}
+
+.consola_contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consola_encabezado_link {
+    display: flex;
+    align-items: center;
+}
+
+.consola_conntain_prod {
+    display: flex;
+}
+.consola_product {
+    margin-right: 1rem;
+}
+.consola_product_title {
+    color: var(--col-gris);
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.consola_product_price{
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+.consola_product_link {
+    color: var(--cor-azul);
+    font-weight: 700;
+}
+
+/* Seccion Diversos */
+section.diversos {
+    padding: 0 10%;
+    margin-top: 3rem;
+}
+
+.diversos_contain {
+    display: flex;
+    justify-content: space-between;
+}
+.diversos_encabezado_link {
+    display: flex;
+    align-items: center;
+}
+
+.diversos_contain_prod {
+    display: flex;
+}
+.diversos_product {
+    margin-right: 1rem;
+}
+.diversos_product_title {
+    color: var(--col-gris);
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.diversos_product_price {
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+
+.diversos_product_link {
+    color: var(--cor-azul);
+    font-weight: 700;
+}
+
+/* Seccion Informacion */
+section.info{
+    padding: 0 10%;
+    background-color: var(--col-fondoDos);
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_container_logo {
+    margin-top: 3rem;
+}
+.info_container_logo img {
+    width: 10rem;
+}
+
+.info_container_atributes-txt {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.info_container_form {
+    width: 50%;
+}
+.info_container_form_title {
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+
+.info_container_form-input {
+    height: 2.5rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000050;
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+
+.info_container_form-textarea {
+    height: 4rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000050;
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    resize: none;
+}
+
+/* Seccion Footer */
+section.footer {
+    padding: 1.5rem 0;
+}
+
+.footer_container {
+    text-align: center;
+    color: var(--col-gris);
+}
+
+.footer_container h3,
+.footer_container h4 {
+    margin: 10px;
+    font-weight: 100;
+    font-size: 1rem;
+}
