@@ -37,3 +37,22 @@ a {
 }
 
 /* ------------------------------------- */
+
+/* Boton azul */
+.btn-blue {
+    background-color: #ec2F4B;
+    border-radius: 5px;
+    border: none;
+    padding: .9rem 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-blue:hover {
+    background-color: white;
+    color: var(--col-rosa);
+    transition: all .25s linear;
+    border: 1px solid var(--col-rosa);
+}
