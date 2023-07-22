@@ -175,6 +175,11 @@ section.addProducto {
     font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.addProduc_container_form-btn:hover {
+    background-color: var(--col-rosa);
+    font-weight: 700;
 }
 
 /* Seccion Informacion */
