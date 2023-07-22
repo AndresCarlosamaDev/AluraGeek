@@ -1,0 +1,117 @@
+
+/* Seccion Informacion */
+section.info {
+    padding: 0 10%;
+    background-color: var(--col-rosaDos);
+    /* margin-top: 5rem; */
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_container_logo {
+    margin-top: 3rem;
+}
+
+.info_container_logo img {
+    width: 10rem;
+}
+
+.info_container_atributes-txt {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.info_container_form {
+    width: 50%;
+}
+
+.info_container_form_title {
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+
+.info_container_form-label {
+    position: relative;
+    bottom: 45px;
+    left: 10px;
+    opacity: 50%;
+    transform: top .3s;
+    transition: 0.2s all ease-in-out;
+}
+.info_container_form-label-ta {
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    opacity: 50%;
+    transform: top .3s;
+    transition: 0.2s all ease-in-out;
+}
+/* Boton Rosa */
+.info_container_form-btn {
+    background-color: #ec2F4B;
+    border-radius: 5px;
+    border: none;
+    padding: .9rem 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.info_container_form-btn:hover {
+    background-color: white;
+    color: var(--col-rosa);
+    transition: all .25s linear;
+    border: 1px solid var(--col-rosa);
+}
+
+
+.info_container_form-input:focus {
+    border-bottom: 3px solid var(--col-rosa);
+}
+.info_container_form-textarea:focus {
+    border-bottom: 3px solid var(--col-rosa);
+}
+.info_container_form-form input:focus~label {
+    font-size: 0.7rem;
+    bottom: 60px;
+}
+.info_container_form-form textarea:focus~label {
+    font-size: 0.7rem;
+    bottom: 113px;
+}
+
+.info_container_form-input {
+    outline: none;
+    height: 2.5rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000050;
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    padding: .2rem .8rem;
+    border-radius: 5px;
+    transition: all .5s linear;
+}
+
+.info_container_form-textarea {
+    outline: none;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00000050;
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    resize: none;
+    padding: 1rem .8rem;
+    border-radius: 5px;
+    transition: all .5s linear;
+}
