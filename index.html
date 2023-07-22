@@ -23,12 +23,12 @@
             <header class="menu_header">
                 <img class="menu_header_logo" src="/img/Logo.png" alt="Logo">
                 <div class="menu_buscador">
-                    <h4 class="menu_buscador-txt">¿Qué deseas buscar?</h4>
-                    <img class="menu_buscador-lupa" src="/img/lupa.png" alt="lupa" />
+                    <input class="menu_buscador_input" type="text" placeholder="¿Qué deseas buscar?">
+                    <button class="menu_buscador-lupa-btn"><img class="menu_buscador-lupa" src="/img/lupa.png" alt="lupa" /></button>
                 </div>
             </header>
             <div class="menu_conten">
-                <button class="menu_conten_btn" type="button">Login</button>
+                <a href=""><button class="menu_conten_btn" type="button">Login</button></a>
             </div>
         </section>
 
@@ -215,12 +215,12 @@
                     <h3 class="info_container_form_title">Hable con nosotros</h3>
                     <form class="info_container_form-form" action="#">
                         <div class="info_container_form-form-container">
-                            <!-- <label class="info_container_form-label" for="">Nombre</label> -->
                             <input class="info_container_form-input" type="text">
+                            <label class="info_container_form-label" for="">Nombre</label>
                         </div>
                         <div class="info_container_form-form-container">
-                            <!-- <label class="info_container_form-label" for="">Escribe tu mensaje</label> -->
                             <textarea class="info_container_form-textarea" cols="50" rows="10" maxlength="250"></textarea>
+                            <label class="info_container_form-label-ta" for="">Escribe tu mensaje</label>
                         </div>
                         <button class="info_container_form-btn btn-blue" type="submit">Enviar mensaje</button>
                     </form>

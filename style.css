@@ -3,13 +3,18 @@
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
     --cor-azul: #2A7AE4;
     --col-gris: #464646;
-    --col-fondoDos: #EAF2FD;
+    --col-grisDos: #c9c9c9;
+    --col-rosa: #ec2F4B;
+    --col-rosaDos: #f37a8c;
+    --col-fondoPri: #0c0f14;
+
 }
 
 .container {
     /* padding-left: 10%;
     padding-right: 10%; */
     overflow: hidden;
+    /* background-color: var(--col-fondoPri); */
 }
 
 body {
@@ -39,13 +44,18 @@ a {
     background-color: #ec2F4B;
     border-radius: 5px;
     border: none;
-    /* padding: 1.2rem 3.5rem; */
     padding: .9rem 3.5rem;
     width: 15rem;
     font-weight: 700;
     color: white;
     font-size: 1rem;
     cursor: pointer;
+}
+.btn-blue:hover {
+    background-color: white;
+    color: var(--col-rosa);
+    transition: all .25s linear;
+    border: 1px solid var(--col-rosa);
 }
 
 /* encabezado secciones */
@@ -63,7 +73,9 @@ a {
 .diversos_encabezado_link img {
     width: 1.2rem;
 }
-.star_encabezado_link{
+.star_encabezado_link, 
+.consola_encabezado_link,
+.diversos_encabezado_link{
     cursor: pointer;
 }
 .star_encabezado_link-btn,
@@ -76,11 +88,3 @@ a {
     opacity: 75%;
     margin-left: 5px;
 }
-
-
-/* Productos */
-.title-product {}
-
-.price-product {}
-
-.link-product {}
