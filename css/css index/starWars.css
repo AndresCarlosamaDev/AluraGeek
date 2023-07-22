@@ -1,0 +1,41 @@
+/* Seccion StarWars */
+section.star {
+    padding: 0 10%;
+    margin-top: 3rem;
+}
+
+.star_contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star_encabezado_link {
+    display: flex;
+    align-items: center;
+}
+
+.star_contain_prod {
+    display: flex;
+    justify-content: space-around;
+}
+
+.star_product {
+    margin-right: 1rem;
+}
+
+.star_product_title {
+    color: var(--col-gris);
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.star_product_price {
+    color: var(--col-gris);
+    margin: 14px 0;
+}
+
+.star_product_link {
+    color: var(--cor-azul);
+    font-weight: 700;
+}
