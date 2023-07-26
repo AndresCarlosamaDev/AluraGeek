@@ -58,6 +58,7 @@ a {
     border: 1px solid var(--col-rosa);
 }
 
+
 /* encabezado secciones */
 .title-encabezado {
     font-size: 2rem;
@@ -87,4 +88,19 @@ a {
 .btn_encabezado {
     opacity: 75%;
     margin-left: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .btn-blue {
+        padding: .7rem 2rem;
+        font-size: .8rem;
+    }
+    /* encabezado secciones */
+    .title-encabezado {
+        font-size: 1.5rem;
+        color: var(--col-gris);
+    }
 }

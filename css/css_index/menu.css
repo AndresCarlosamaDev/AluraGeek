@@ -67,6 +67,7 @@ section.menu {
 
 .menu_conten {
     display: flex;
+    align-items: center;
 }
 
 .menu_conten_btn {
@@ -85,4 +86,52 @@ section.menu {
     border-color: var(--col-rosa);
     color: var(--col-rosa);
     transition: all .3s linear;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    section.menu {
+        /* padding right y left */
+        padding: 1rem 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .menu_header {
+        width: calc((100vw/3)*2);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu_conten {
+        align-items: center;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .menu_header_logo {
+        height: 35px;
+    }
+    .menu_buscador {
+        width: 0;
+        background-color: white;
+        position: relative;
+        left: 11rem;
+    }
+    .menu_buscador_input {
+        display: none;
+    }
+    .menu_buscador-lupa-btn {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .menu_conten {
+        position: relative;
+        right: 4.5rem;
+    }
 }
