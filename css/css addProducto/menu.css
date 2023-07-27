@@ -86,3 +86,27 @@ section.menu {
     color: var(--col-rosa);
     transition: all .3s linear;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    section.menu {
+        padding: 1rem 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .menu_header {
+        width: 60vw;
+    }
+
+    .menu_conten {
+        align-items: center;
+    }
+
+    .menu_conten_btn {
+        padding: .85rem 1.5rem;
+        font-size: .8rem;
+    }
+}

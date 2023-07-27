@@ -73,3 +73,29 @@ section.login {
 .login_container_form-form-btn:hover {
     background-color: var(--cor-azul);
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .login_container {
+        flex-direction: column;
+        box-shadow: 30px 25px 40px -20px rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+    }
+    .login_container_img {
+        width: 50%;
+        position: relative;
+        top: -3rem;
+    }
+    .login_container_form {
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .login_container_form-title {
+        text-align: center;
+        margin-top: 0;
+    }
+}

@@ -64,3 +64,24 @@ section.menu {
 .menu_buscador-lupa {
     width: 20px;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    section.menu {
+        /* padding right y left */
+        padding: 1rem 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .menu_header {
+        width: calc((100vw/3)*2);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu_conten {
+        align-items: center;
+    }
+}

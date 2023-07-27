@@ -30,8 +30,7 @@ section.productos {
 .productos_contain_prod {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .productos_product {
     margin-right: .8rem;
@@ -66,4 +65,24 @@ section.productos {
 .productos_product_link {
     color: var(--cor-azul);
     font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    section.productos {
+        padding: 0 5%;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .productos_encabezado_title {
+        font-size: 1.5rem;
+    }
+    .productos_encabezado_btn {
+        padding: 1rem 1.8em;
+    }
+    .productos_product {
+        margin-right: .3rem;
+    }
 }
