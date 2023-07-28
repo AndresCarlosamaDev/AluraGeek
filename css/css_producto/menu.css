@@ -85,3 +85,30 @@ section.menu {
         align-items: center;
     }
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .menu_header_logo {
+        height: 35px;
+    }
+    .menu_buscador {
+        width: 0;
+        background-color: white;
+        position: relative;
+        left: 11rem;
+    }
+    .menu_buscador_input {
+        display: none;
+    }
+    .menu_buscador-lupa-btn {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .menu_conten {
+        position: relative;
+        right: 4.5rem;
+    }
+}

@@ -86,3 +86,19 @@ section.productos {
         margin-right: .3rem;
     }
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    section.productos {
+        padding: 1rem 9% 3rem;
+    }
+    .productos_contain_encabezado {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .productos_encabezado_title {
+        font-size: 1.5rem;
+    }
+}

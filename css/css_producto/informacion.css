@@ -1,9 +1,8 @@
-
 /* Seccion Informacion */
 section.info {
     padding: 0 10%;
     background-color: var(--col-rosaDos);
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
     padding-top: 3rem;
     padding-bottom: 7rem;
 }
@@ -11,6 +10,11 @@ section.info {
 .info_container {
     display: flex;
     justify-content: space-between;
+}
+.info_container-one {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
 }
 
 .info_container_logo {
@@ -23,7 +27,7 @@ section.info {
 
 .info_container_atributes-txt {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2rem;
     color: white;
 }
@@ -53,26 +57,6 @@ section.info {
     transform: top .3s;
     transition: 0.2s all ease-in-out;
 }
-/* Boton Rosa */
-.info_container_form-btn {
-    background-color: #ec2F4B;
-    border-radius: 5px;
-    border: none;
-    padding: .9rem 3.5rem;
-    width: 15rem;
-    font-weight: 700;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-}
-.info_container_form-btn:hover {
-    background-color: white;
-    color: var(--col-rosa);
-    transition: all .25s linear;
-    border: 1px solid var(--col-rosa);
-}
-
-
 .info_container_form-input:focus {
     border-bottom: 3px solid var(--col-rosa);
 }
@@ -145,4 +129,41 @@ section.info {
     .info_container_logo {
         margin-top: 0;
     }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    section.info {
+        margin-top: 0;
+    }
+    .info_container {
+        flex-direction: column;
+    }
+    .info_container-one {
+        width: 100%;
+    }
+    
+    .info_container_logo {
+        margin-top: .7rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .info_container_logo img {
+        width: 13rem;
+    }
+    .info_container_atributes-txt {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .info_container_form {
+        width: 90%;
+        display: inline-block;
+    }
+    .info_container_form-input {
+        width: 100%;
+    }
+    
 }

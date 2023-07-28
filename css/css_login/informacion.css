@@ -11,6 +11,11 @@ section.info {
     display: flex;
     justify-content: space-between;
 }
+.info_container-one {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
 
 .info_container_logo {
     margin-top: 3rem;
@@ -22,7 +27,7 @@ section.info {
 
 .info_container_atributes-txt {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2rem;
     color: white;
 }
@@ -124,4 +129,41 @@ section.info {
     .info_container_logo {
         margin-top: 0;
     }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    section.info {
+        margin-top: 0;
+    }
+    .info_container {
+        flex-direction: column;
+    }
+    .info_container-one {
+        width: 100%;
+    }
+    
+    .info_container_logo {
+        margin-top: .7rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .info_container_logo img {
+        width: 13rem;
+    }
+    .info_container_atributes-txt {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .info_container_form {
+        width: 90%;
+        display: inline-block;
+    }
+    .info_container_form-input {
+        width: 100%;
+    }
+    
 }

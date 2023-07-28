@@ -99,3 +99,37 @@ section.login {
         margin-top: 0;
     }
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .login_container {
+        width: 100vw;
+        height: calc(100vh - 90px);
+        border-radius: 0px;
+        background-color: transparent;
+        box-shadow: none;
+        background-color: white;
+    }
+    .login_container_img {
+        width:35%;
+        margin-top: 7rem;
+    }
+    .login_container_form {
+        width: 65%;
+    }
+    .login_container_form-title {
+        color: var(--col-rosa);
+    }
+    .login_container_form-form {
+        color: white;
+    }
+    .login_container_form-form-input input {
+        background-color: #f8aeb9;
+        opacity: 100%;
+    }
+    .login_container_form-form-input input::placeholder {
+        color: #464646 ;
+    }
+}
