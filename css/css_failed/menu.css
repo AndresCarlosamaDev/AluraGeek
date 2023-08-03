@@ -1,0 +1,114 @@
+/* Seccion Menu */
+section.menu {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.menu_header {
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_header_logo {
+    height: 45px;
+    margin-right: 1.5rem;
+}
+
+.menu_buscador {
+    display: flex;
+    background-color: #F5F5F5;
+    width: calc(100vw/3);
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: .2rem 0 .2rem .8rem;
+}
+
+.menu_buscador-lupa-btn {
+    justify-content: flex-end;
+    cursor: pointer;
+    border: none;
+    padding: 6px 15px 6px 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+
+}
+
+.menu_buscador-lupa-btn:hover {
+    background-color: var(--col-rosa);
+    transition: all .3s ease-in-out;
+
+}
+
+.menu_buscador_input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Raleway';
+    font-size: .9rem;
+    width: 100%;
+}
+
+.menu_buscador-txt {
+    font-weight: 200;
+    font-size: small;
+}
+
+.menu_buscador-lupa {
+    width: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    section.menu {
+        /* padding right y left */
+        padding: 1rem 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .menu_header {
+        width: calc((100vw/3)*2);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu_conten {
+        align-items: center;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .menu_header_logo {
+        height: 35px;
+    }
+    .menu_buscador {
+        width: 0;
+        background-color: white;
+        position: relative;
+        left: 11rem;
+    }
+    .menu_buscador_input {
+        display: none;
+    }
+    .menu_buscador-lupa-btn {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .menu_conten {
+        position: relative;
+        right: 4.5rem;
+    }
+}

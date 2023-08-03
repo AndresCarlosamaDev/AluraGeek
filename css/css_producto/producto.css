@@ -40,11 +40,30 @@ section.productos {
     display: flex;
     justify-content: flex-end;
 }
+.productos_product-icon-btn{
+    background-color: transparent;
+    width: 2rem;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+    position: relative;
+    top: 2rem
+}
 .productos_product-icon {
     width: 18px;
     margin-right: .6rem;
     position: relative;
-    top: 33px;
+    top: 37px;
+    background-color: var(--col-rosa);
+    padding: 2.5px;
+    border-radius: 3px;
+}
+.productos_product-icon-del {
+    width: 18px;
+    margin-right: .6rem;
+    position: relative;
+    top: 4px;
+    left: -5px;
     background-color: var(--col-rosa);
     padding: 2.5px;
     border-radius: 3px;

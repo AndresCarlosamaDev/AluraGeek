@@ -1,0 +1,116 @@
+/* Seccion Añadir Producto */
+section.addProducto {
+}
+.addProduc_container {
+    height: calc(100vh - 93px);
+    background-color: var(--col-grisDos);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addProduc_container_title{
+    color: var(--col-gris);
+}
+.addProduc_container_form {
+    font-family: 'Raleway';
+    width: 50vw;
+}
+.addProduc_container_form-input,
+.addProduc_container_form-ta {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+.addProduc_container_form-input input {
+    outline: none;
+    padding: 0 .5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s linear;
+
+}
+.addProduc_container_form-input label {
+    width: 18%;
+    opacity: 50%;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    font-size: .9rem;
+    transition: all .3s ease-in-out;
+}
+.addProduc_container_form-input input:focus~label {
+    bottom: 35px;
+    font-size: .6rem;
+}
+.addProduc_container_form-input input:focus {
+    border-bottom: 2px solid var(--cor-azul);
+}
+
+.addProduc_container_form-ta label  {
+    width: 22%;
+    opacity: 50%;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    font-size: .9rem;
+    transition: all .3s ease-in-out;
+
+}
+.addProduc_container_form-ta textarea:focus~label {
+    bottom: 110px ;
+    font-size: .6rem;
+}
+
+.addProduc_container_form-ta textarea {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem .5rem;
+    resize: none;
+    font-family: 'Raleway';
+    height: 5rem;
+    transition: all .3s ease-in-out;
+}
+.addProduc_container_form-ta textarea:focus {
+    border-bottom: 2px solid var(--cor-azul);
+}
+
+.addProduc_container_form-btn {
+    width: 100%;
+    background-color: var(--cor-azul);
+    border: none;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.addProduc_container_form-btn:hover {
+    background-color: var(--col-rosa);
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .addProduc_container_form {
+        width: 90vw;
+    }
+    .addProduc_container_form-input label {
+        width: 22%;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .addProduc_container_form-input label,
+    .addProduc_container_form-ta label {
+        width: 45%;
+    }
+}

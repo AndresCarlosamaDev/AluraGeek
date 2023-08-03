@@ -1,0 +1,29 @@
+section.mensaje {
+    background-color: var(--col-grisDos);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10rem;
+    align-items: center;
+}
+.productos_encabezado_title{
+    font-size: 2.5rem;
+    color: var(--col-gris);
+}
+.mensaje_link{
+    padding: 1.2rem 4rem;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: var(--col-rosaDos);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.mensaje_link:hover {
+    background-color: var(--col-rosa);
+}
+.mensaje_link a{
+    color: white;
+}
