@@ -75,13 +75,13 @@
                 </div>
                 <div class="info_container_form">
                     <h3 class="info_container_form_title">Hable con nosotros</h3>
-                    <form class="info_container_form-form" action="#">
+                    <form class="info_container_form-form" action="#" data-hablar>
                         <div class="info_container_form-form-container">
-                            <input class="info_container_form-input" type="text">
+                            <input class="info_container_form-input" type="text" minlength="7" maxlength="100" required data-nombreP>
                             <label class="info_container_form-label" for="">Nombre</label>
                         </div>
                         <div class="info_container_form-form-container">
-                            <textarea class="info_container_form-textarea" cols="30" rows="10" maxlength="250"></textarea>
+                            <textarea class="info_container_form-textarea" cols="30" rows="10" maxlength="250" required data-mensajeP></textarea>
                             <label class="info_container_form-label-ta" for="">Escribe tu mensaje</label>
                         </div>
                         <button class="info_container_form-btn btn-blue" type="submit">Enviar mensaje</button>
@@ -99,7 +99,9 @@
         </section>
 
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="controllers/listarProd.controller.js"></script>
+    <script type="module" src="controllers/hablar.controller.js"></script>
 </body>
 
 </html>

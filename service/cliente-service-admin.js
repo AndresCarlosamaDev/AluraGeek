@@ -1,6 +1,7 @@
 //Fetch API
 //Comunicacion con el servidor
-
+const servidorNube = "https://json-server-vercel-ten-liard.vercel.app/";
+const servidorLocal = "http://localhost:3000/productos";
 //Leer productos
 const listaProductos = () => {
     return fetch("http://localhost:3000/productos").then((response) => response.json());

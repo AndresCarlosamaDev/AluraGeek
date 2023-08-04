@@ -1,18 +1,17 @@
-import { clienteServices } from "../service/cliente-service-hablar.js";
+import { mensajeServices } from "../service/cliente-service-hablar.js";
 
-const formHablar = document.querySelector("[data-form-hablar]");
+const formHablar = document.querySelector("[data-hablar]");
 
 formHablar.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const nombre = document.querySelector("[data-nombre]").value;
-  const mensaje = document.querySelector("[data-mensaje]").value;
+  const nombre = document.querySelector("[data-nombreP]").value;
+  const mensaje = document.querySelector("[data-mensajeP]").value;
 
-  clienteServices.crearMensaje(nombre, mensaje)
+  mensajeServices.crearMensaje(nombre, mensaje)
   .then(() => {
     console.log(nombre + " - " + mensaje);
-    window.location.href = "../index.html";
+    window.location.href = "../index.html"
   })
-  .catch((err) => console.error(err));
-  console.log(err);
+  .catch((err) => console.log(err));
 });

@@ -1,17 +1,17 @@
 //Fetch API
 //Comunicacion con el servidor
 
-//Crear cliente
+//Crear Mensaje
 const crearMensaje = (nombre, mensaje) => {
     return fetch("http://localhost:3000/habla", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({ nombre, mensaje }),
+        body: JSON.stringify({ nombre, mensaje, id: uuid.v4() }),
     });
 };
 
-export const clienteServices = {
+export const mensajeServices = {
     crearMensaje,
 };
