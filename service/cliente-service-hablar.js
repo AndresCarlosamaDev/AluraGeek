@@ -3,7 +3,7 @@
 
 //Crear Mensaje
 const crearMensaje = (nombre, mensaje) => {
-    return fetch("https://json-server-vercel-ten-liard.vercel.app", {
+    return fetch("https://json-server-vercel-ten-liard.vercel.app/habla", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
