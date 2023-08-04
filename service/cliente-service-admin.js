@@ -4,12 +4,12 @@ const servidorNube = "https://json-server-vercel-ten-liard.vercel.app/";
 const servidorLocal = "http://localhost:3000/productos";
 //Leer productos
 const listaProductos = () => {
-    return fetch("http://localhost:3000/productos").then((response) => response.json());
+    return fetch("https://json-server-vercel-ten-liard.vercel.app").then((response) => response.json());
 }
 
 //Crear producto
 const crearProducto = (imgProd, categoriaProd, nombreProd, precioProd, descripcionProd) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("hhttps://json-server-vercel-ten-liard.vercel.app", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -20,7 +20,7 @@ const crearProducto = (imgProd, categoriaProd, nombreProd, precioProd, descripci
 
 //Eliminar producto
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://json-server-vercel-ten-liard.vercel.app/${id}`, {
         method: "DELETE"
     })
 }
@@ -28,11 +28,11 @@ const eliminarProducto = (id) => {
 
 //Actualizar producto
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`).then(( response ) => response.json())
+    return fetch(`https://json-server-vercel-ten-liard.vercel.app/${id}`).then(( response ) => response.json())
 };
 
 const reemplazarProducto = (imgProd, categoriaProd, nombreProd, precioProd, descripcionProd, id) => {
-    return fetch(`http://localhost:3000/productos/${id}`,{
+    return fetch(`https://json-server-vercel-ten-liard.vercel.app/${id}`,{
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
