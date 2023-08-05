@@ -25,6 +25,7 @@ const nuevoProducto = ( imgProd, categoriaProd, nombreProd, precioProd, descripc
         productoServices.eliminarProducto(id)
         .then( (response) => {
             console.log(response);
+            window.location.href = "../productos.html"
         }).catch( err => alert("Ocurrio un error") );
     });
 
