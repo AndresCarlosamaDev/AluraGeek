@@ -9,26 +9,6 @@
       "email": "astrideliana@gmail.com",
       "password": "astroeliana2009",
       "id": "361d25eb-4d61-4db9-9d83-1ab87a9e961d"
-    },
-    {
-      "email": "mariafern@gmail.com",
-      "password": "mafernada97",
-      "id": "4fe46d24-6223-48c6-988d-fc24d40f381f"
-    },
-    {
-      "email": "soyelitas@gmail.com",
-      "password": "astroeliana20091",
-      "id": "469968e1-a651-45ee-80f0-878ce1340ffa"
-    },
-    {
-      "email": "andrescarlosama97@gmail.com",
-      "password": "andrescrls97",
-      "id": "4c67bcbf-7bca-4381-90e3-36837305379c"
-    },
-    {
-      "email": "andrescarlosama97@gmail.com",
-      "password": "andrescrls97",
-      "id": "d9864833-020d-463b-8cac-66693f913372"
     }
   ],
   "habla": [
@@ -36,64 +16,16 @@
       "nombre": "Andres Carlosama",
       "mensaje": "Hola este es mi primer mensajes de prueba espero que lo esten recibiendo",
       "id": "cf270e5a-881e-4fb9-84af-bf1bd50e4cd4"
-    },
-    {
-      "nombre": "Elitas Orteguitas",
-      "mensaje": "Fui a tu cumpleaños y lleve una olla y si pude....xd",
-      "id": "59de2519-38b9-4df3-9ea5-c61753dd0607"
-    },
-    {
-      "nombre": "Andres Login",
-      "mensaje": "Este es un intento desde el login",
-      "id": "bd972e4e-d6de-4ede-b58b-2f76185fdc77"
-    },
-    {
-      "nombre": "Andres Productos",
-      "mensaje": "Este intento va desde la seccion de productos",
-      "id": "a784c5c7-bec6-4db6-8fa8-62108e83ad79"
-    },
-    {
-      "nombre": "Otra vez producto",
-      "mensaje": "De nuevo desde los producto",
-      "id": "ae2cbb10-b455-4589-9b34-81d913fda7ea"
-    },
-    {
-      "nombre": "",
-      "mensaje": "Ahora si estoy en añadir producto",
-      "id": "0533df83-82bb-40b2-ae8f-f0729fbe448d"
-    },
-    {
-      "nombre": "Mug Star Wars",
-      "mensaje": "Esto es solo una prueba",
-      "id": "ca399b92-7cf5-4d7b-b2af-96041120743b"
-    },
-    {
-      "nombre": "eSTO ES UNA PRUBA",
-      "mensaje": "PRUEBAPRUEBA PRUENA",
-      "id": "1c46d251-1913-4381-a951-b842db556fbb"
-    },
-    {
-      "nombre": "Andres Login Final",
-      "mensaje": "Esta es la prueba Final",
-      "id": "7d3b992e-ed73-4cd6-8342-b127ede92af5"
     }
   ],
   "productos": [
     {
       "imgProd": "img/sw_1.png",
-      "categoriaProd": "Guerra de las Galaxias",
-      "nombreProd": "Mug Star Wars",
-      "precioProd": "1500 en pesos",
-      "descripcionProd": "Taza de plastico de Star Wars",
-      "id": "175c4d01-0ebf-4728-8c91-301c7a0e76b0"
-    },
-    {
-      "imgProd": "img/sw_3.png",
-      "categoriaProd": "Star Wars",
-      "nombreProd": "Foto de Yodacite",
-      "precioProd": "150",
-      "descripcionProd": "Esta es una foto de yoda creo",
-      "id": "96076221-ffe4-48de-9a15-7862345f360f"
+      "categoriaProd": "Detalles",
+      "nombreProd": "Fotode SW",
+      "precioProd": "545",
+      "descripcionProd": "Hora de aventura",
+      "id": "c528d7b6-1847-4adc-aee3-dd489a2253ee"
     }
   ]
 }
