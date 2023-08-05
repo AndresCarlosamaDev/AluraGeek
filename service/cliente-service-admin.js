@@ -1,7 +1,7 @@
 //Fetch API
 //Comunicacion con el servidor
 const servidorNube = "https://json-server-vercel-ten-liard.vercel.app/";
-constserverDos = "alura-geek-a8jrpg3op-andrescarlosamadev.vercel.app";
+const serverDos = "alura-geek-a8jrpg3op-andrescarlosamadev.vercel.app";
 const servidorLocal = "http://localhost:3000/";
 //Leer productos
 const listaProductos = () => {
